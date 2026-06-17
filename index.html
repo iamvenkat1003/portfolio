@@ -5,126 +5,284 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Personal portfolio for showcasing projects, skills, experience, and contact information."
+      content="Portfolio of Venkateswara Reddy Satti, Machine Learning Engineer specializing in production ML systems, GenAI, fraud detection, MLOps, and scalable AI infrastructure."
     />
-    <title>Your Name | Portfolio</title>
+    <title>Venkateswara Reddy Satti | Machine Learning Engineer</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#home">Your Name</a>
+      <a class="brand" href="#home" aria-label="Venkateswara Reddy Satti home">
+        VRS
+      </a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
       <section class="hero" id="home">
+        <div class="hero-media">
+          <img
+            src="./assets/venkateswara-reddy-headshot.jpg"
+            alt="Venkateswara Reddy Satti"
+          />
+        </div>
         <div class="hero-copy">
-          <p class="eyebrow">Portfolio</p>
-          <h1>Building thoughtful, reliable digital experiences.</h1>
+          <p class="eyebrow">Venkateswara Reddy Satti</p>
+          <h1>Production ML systems for fraud, risk, GenAI, and real-time AI.</h1>
+          <p class="role-line">Machine Learning Engineer · AI Systems · MLOps</p>
           <p class="intro">
-            Replace this with a sharp one- or two-sentence summary from your
-            resume: your role, strongest skills, and the kind of work you want.
+            I build scalable AI systems across model development, distributed
+            data pipelines, low-latency inference APIs, monitoring, and cloud
+            deployment. My work focuses on practical machine learning that is
+            reliable enough for high-volume production environments.
           </p>
           <div class="actions">
-            <a class="button primary" href="#projects">View projects</a>
-            <a class="button secondary" href="#contact">Contact me</a>
-          </div>
-        </div>
-        <div class="hero-panel" aria-label="Portfolio highlights">
-          <div>
-            <span class="metric">3+</span>
-            <span>Featured projects</span>
-          </div>
-          <div>
-            <span class="metric">10+</span>
-            <span>Technical skills</span>
-          </div>
-          <div>
-            <span class="metric">1</span>
-            <span>Resume-driven story</span>
+            <a class="button primary" href="#projects">View work</a>
+            <a class="button secondary" href="./assets/venkateswara-reddy-satti-resume.pdf">
+              Download resume
+            </a>
           </div>
         </div>
       </section>
 
-      <section class="section" id="about">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>A short professional story.</h2>
-        </div>
-        <p class="section-copy">
-          Once you share your resume, this section will become a polished
-          narrative about your background, strengths, and career direction.
-        </p>
+      <section class="banner-section" aria-label="Machine learning engineer banner">
+        <img
+          src="./assets/ml-engineer-banner.jpg"
+          alt="Machine learning engineer banner showing LLMs, MLOps, computer vision, and production AI architecture"
+        />
       </section>
 
-      <section class="section" id="skills">
+      <section class="section impact" id="expertise">
         <div class="section-heading">
-          <p class="eyebrow">Skills</p>
-          <h2>Tools and technologies.</h2>
+          <p class="eyebrow">Core Focus</p>
+          <h2>AI systems that move from notebooks to production.</h2>
         </div>
-        <div class="tag-list">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React</span>
-          <span>Git</span>
-          <span>Problem Solving</span>
+        <div class="impact-grid">
+          <article>
+            <span class="metric">4+</span>
+            <h3>Years in ML engineering</h3>
+            <p>
+              Experience building production-grade ML, backend, and distributed
+              data systems across telecom and financial technology domains.
+            </p>
+          </article>
+          <article>
+            <span class="metric">30%</span>
+            <h3>Inference throughput gain</h3>
+            <p>
+              Improved real-time AI services through batching, caching,
+              asynchronous APIs, and scalable microservice design.
+            </p>
+          </article>
+          <article>
+            <span class="metric">20%</span>
+            <h3>Fraud detection lift</h3>
+            <p>
+              Built large-scale risk models with anomaly detection, ensemble
+              methods, behavioral features, and production scoring APIs.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>Machine learning, backend engineering, and MLOps in one lane.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            I specialize in the engineering layer where models become reliable
+            products: feature engineering, streaming and batch pipelines,
+            model-serving APIs, observability, drift detection, CI/CD, and
+            cloud-native deployment.
+          </p>
+          <p>
+            My recent work includes real-time SMS spam and fraud detection,
+            conversational AI using RAG and vector databases, reinforcement
+            learning-based personalization, AML detection, credit risk models,
+            and explainable AI workflows for regulated environments.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Production AI across messaging and financial systems.</h2>
+        </div>
+        <div class="timeline">
+          <article class="role">
+            <div>
+              <p class="role-date">June 2024 - Present</p>
+              <h3>Machine Learning Engineer, Real-Time ML Systems</h3>
+              <p class="company">Twilio · Atlanta, GA</p>
+            </div>
+            <ul>
+              <li>
+                Built real-time SMS spam and fraud detection systems using
+                anomaly detection, ensemble learning, deep learning, PyTorch,
+                and Scikit-learn.
+              </li>
+              <li>
+                Designed event-driven ML pipelines and low-latency FastAPI
+                inference services for high-volume streaming workloads.
+              </li>
+              <li>
+                Developed GenAI systems with LangChain, RAG, embeddings, vector
+                databases, and LLM orchestration for automated interactions.
+              </li>
+              <li>
+                Implemented MLflow-based monitoring, drift detection,
+                observability, and model evaluation workflows.
+              </li>
+            </ul>
+          </article>
+          <article class="role">
+            <div>
+              <p class="role-date">May 2021 - Dec 2023</p>
+              <h3>Machine Learning Engineer, Fraud &amp; Risk Systems</h3>
+              <p class="company">FIS Global · Bengaluru, India</p>
+            </div>
+            <ul>
+              <li>
+                Built transaction fraud detection systems with XGBoost,
+                Scikit-learn, anomaly detection, and ensemble learning,
+                improving accuracy by 20%.
+              </li>
+              <li>
+                Developed AML detection using graph-based anomaly detection,
+                behavioral analytics, and sequence modeling.
+              </li>
+              <li>
+                Created credit risk and loan default prediction systems with
+                behavioral feature engineering and model evaluation pipelines.
+              </li>
+              <li>
+                Reduced fraud scoring latency by 25% through scalable FastAPI
+                services and distributed backend architecture.
+              </li>
+            </ul>
+          </article>
         </div>
       </section>
 
       <section class="section" id="projects">
         <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>Selected work.</h2>
+          <p class="eyebrow">Selected Work</p>
+          <h2>Project areas I can discuss deeply.</h2>
         </div>
         <div class="project-grid">
           <article class="project-card">
-            <p class="project-type">Featured Project</p>
-            <h3>Project One</h3>
+            <p class="project-type">Fraud &amp; Risk AI</p>
+            <h3>Real-Time Fraud Scoring Systems</h3>
             <p>
-              Add the problem, your role, the stack, and the outcome. Strong
-              project cards focus on impact, not only tools.
+              Production scoring APIs, streaming features, anomaly detection,
+              XGBoost, explainability, drift monitoring, and model governance
+              for high-throughput transaction systems.
             </p>
-            <a href="#" aria-label="View Project One">View project</a>
           </article>
           <article class="project-card">
-            <p class="project-type">Featured Project</p>
-            <h3>Project Two</h3>
+            <p class="project-type">GenAI / LLMOps</p>
+            <h3>RAG-Powered Conversational AI</h3>
             <p>
-              Add a concise explanation of what you built, why it matters, and
-              what you learned while building it.
+              LangChain workflows with vector embeddings, retrieval,
+              orchestration, prompt engineering, and scalable inference services
+              for automated customer interactions.
             </p>
-            <a href="#" aria-label="View Project Two">View project</a>
           </article>
           <article class="project-card">
-            <p class="project-type">Featured Project</p>
-            <h3>Project Three</h3>
+            <p class="project-type">Computer Vision</p>
+            <h3>Detection &amp; Segmentation Pipelines</h3>
             <p>
-              Link to a live demo, GitHub repo, case study, or screenshots so
-              visitors can inspect the work quickly.
+              Object detection and instance segmentation using Mask R-CNN,
+              DETR, CLIP, and PyTorch with preprocessing, evaluation, and
+              training orchestration.
             </p>
-            <a href="#" aria-label="View Project Three">View project</a>
+          </article>
+          <article class="project-card">
+            <p class="project-type">MLOps</p>
+            <h3>End-to-End ML Deployment</h3>
+            <p>
+              Dockerized pipelines, GitHub Actions, MLflow experiment tracking,
+              model serving, monitoring, and cloud-native inference workflows.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Stack</p>
+          <h2>Tools I use to build, ship, and monitor AI systems.</h2>
+        </div>
+        <div class="skills-grid">
+          <article>
+            <h3>Machine Learning</h3>
+            <p>PyTorch, TensorFlow, Scikit-learn, XGBoost, Deep Learning, Reinforcement Learning, Anomaly Detection</p>
+          </article>
+          <article>
+            <h3>GenAI &amp; LLMOps</h3>
+            <p>LangChain, RAG, Vector Databases, Embeddings, Prompt Engineering, Conversational AI, LLM Inference</p>
+          </article>
+          <article>
+            <h3>MLOps</h3>
+            <p>MLflow, CI/CD, Model Deployment, Drift Detection, Observability, Monitoring, Model Serving</p>
+          </article>
+          <article>
+            <h3>Backend &amp; Data</h3>
+            <p>Python, SQL, FastAPI, REST APIs, AsyncIO, Microservices, ETL, Feature Engineering, Streaming Pipelines</p>
+          </article>
+          <article>
+            <h3>Cloud &amp; Infrastructure</h3>
+            <p>AWS, Azure, GCP, Docker, Kubernetes, GitHub Actions, Linux, Cloud Deployment Workflows</p>
+          </article>
+          <article>
+            <h3>Databases</h3>
+            <p>PostgreSQL, MySQL, MongoDB, Vector Databases, Distributed Data Processing</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div class="section-heading">
+          <p class="eyebrow">Education &amp; Credentials</p>
+          <h2>Artificial intelligence foundation with production experience.</h2>
+        </div>
+        <div class="credential-list">
+          <article>
+            <h3>Saint Louis University</h3>
+            <p>Master of Science in Artificial Intelligence · GPA 3.8/4.0</p>
+            <span>2024 - 2025 · St. Louis, MO</span>
+          </article>
+          <article>
+            <h3>Certifications</h3>
+            <p>Oracle Generative AI Professional</p>
+            <p>DRDO Certified Artificial Intelligence Engineer</p>
           </article>
         </div>
       </section>
 
       <section class="section contact" id="contact">
-        <div class="section-heading">
+        <div class="contact-panel">
           <p class="eyebrow">Contact</p>
-          <h2>Let’s connect.</h2>
-        </div>
-        <p class="section-copy">
-          Add your email, LinkedIn, GitHub, and resume link here.
-        </p>
-        <div class="contact-links">
-          <a href="mailto:you@example.com">you@example.com</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
+          <h2>Let’s build reliable AI systems.</h2>
+          <p>
+            I’m open to machine learning engineering, AI platform, GenAI,
+            MLOps, backend ML, and production AI roles.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:venkateswarareddysatti01@gmail.com">Email</a>
+            <a href="tel:+13146951563">Call</a>
+            <a href="https://linkedin.com/in/venkat-reddy-815a5a1b1">LinkedIn</a>
+            <a href="./assets/venkateswara-reddy-satti-resume.pdf">Resume</a>
+          </div>
         </div>
       </section>
     </main>
